@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(to right, #ece9e6, #ffffff);
+            color: #333;
+        }
+
+        h1 {
+            color: #4c6ef5;
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-align: center;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            height: 80vh;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        a {
+            color: #4c6ef5;
+            text-decoration: none;
+            font-size: 24px;
+            background-color: #e7f1ff;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-weight: 600;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #4c6ef5;
+            color: #fff;
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            border-radius: 15px;
+            margin-top: 30px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container main">
+        <h1>Neural Network-powered Style Transfer</h1>
+        <img src="{{ path }}" alt="User Image" height="350" width="auto">
+    </div>
+
+    <div class="container link">
+        <a href="/">Try Another Style</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+Flask 
+Werkzeug 
+numpy 
+matplotlib 
+tensorflow 
+tensorflow-hub 
+opencv-python
